@@ -2,7 +2,7 @@
 
 ![typing](https://readme-typing-svg.herokuapp.com?font=cascade&color=EEEEEE&background=111111&center=true&vCenter=true&height=200&duration=2500&pause=500&lines=Hello!;My+name+is+SIddharth.;I+like+to+make+crezy+projects;Check+out+my+repositories!)
 
-<h1 align="center">Hi 👋, I'm Siddharth </h1>
+<h1 align="center">Hi 👋, I'm Hari </h1>
 <!-- <h3 align="center">A passionate FullStack Developer from India</h3> -->
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 
