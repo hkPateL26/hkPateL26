@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,5,7&height=250&section=header&text=Hari%20Patel&fontSize=75&fontColor=ffffff&animation=scaleIn&desc=Architect%20of%20Sudarshan%20System&descSize=25&descAlignY=70&descAlign=50" width="100%"/>
+  <img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/super-animated-banner.svg" alt="Hari Patel Animated Banner" width="100%" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=600&height=50&lines=AI+%2F+ML+Engineer;Full+Stack+Developer;Building+the+Architecture+of+Truth;Transforming+Ideas+Into+Code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&height=50&lines=>_AI+%2F+ML+Engineer;>_Full+Stack+Developer;>_Building+the+Architecture+of+Truth;>_Transforming+Ideas+Into+Code" alt="Typing SVG" />
   </a>
 </div>
 
