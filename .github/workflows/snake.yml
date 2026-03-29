@@ -1,0 +1,31 @@
+name: Generate Snake
+
+on:
+  schedule:
+    # Roj ratre 12 vage automatically run thase
+    - cron: "0 0 * * *" 
+  workflow_dispatch: # Tame manually pan run kari shako ena mate
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: Platane/snk@v3
+        with:
+          # Tamaru GitHub username
+          github_user_name: hkPateL26
+          
+          # Aa 2 images generate thase 'dist' folder ma
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          # 'output' branch ma push karse (je link tame README ma muki che)
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
