@@ -11,8 +11,13 @@
 <p align="center">
   <a href="https://github.com/hkPateL26"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="https://twitter.com/hkPateL26"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
-  <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=Profile%20Views&color=3B82F6&style=for-the-badge" alt="Profile Views" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=hkPateL26&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+  </a>
 </p>
 
 ---
@@ -23,9 +28,9 @@
       <h3 align="center">👨‍💻 The Developer</h3>
       <ul>
         <li>🎓 <b>Computer Engineering Student</b> crafting digital solutions.</li>
-        <li>🧠 Deep diving into <b>AI/ML, Computer Vision & Backend Architecture</b>.</li>
-        <li>🚀 Lead Creator of the <b>Sudarshan System</b> (AI Attendance).</li>
-        <li>💡 Focused on building scalable, secure, and passwordless APIs.</li>
+        <li>🧠 Deep diving into <b>AI/ML, Computer Vision & Backend</b>.</li>
+        <li>🚀 Lead Creator of the <b>Sudarshan System</b>.</li>
+        <li>💡 Focused on building scalable, secure, passwordless APIs.</li>
       </ul>
     </td>
     <td width="50%" align="center" style="border: none;">
@@ -43,7 +48,13 @@
 
 ---
 
-<h3 align="center">📈 GitHub Activity Graph</h3>
+<h3 align="center">🐍 Contribution Matrix</h3>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+</div>
+
+<br>
+
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hkPateL26&theme=react&hide_border=true&background=0D1117&stroke=0000&ring=3B82F6&fire=3B82F6&currStreakLabel=C9D1D9" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hkPateL26&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9" width="48%" />
