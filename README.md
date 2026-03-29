@@ -18,7 +18,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=hkPateL26&theme=radical&no-frame=true&no-bg=true&margin-w=15" alt="Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=hkPateL26&theme=radical&no-frame=true&no-bg=true&margin-w=15&cache=1" alt="Trophies" />
   </a>
 </div>
 
@@ -31,7 +31,7 @@
 * 💡 Focused on building scalable, secure, passwordless APIs.
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hkPateL26&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9" width="80%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=hkPateL26&show_icons=true&theme=react&hide_border=true&layout=compact&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=C9D1D9&cache=1" width="80%" />
 </div>
 
 ---
@@ -45,12 +45,12 @@
 
 ### 🐍 Contribution Matrix
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation Needs Setup" width="100%" />
+  <img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg?v=1" alt="Snake Animation" width="100%" />
 </div>
 
 <br>
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hkPateL26&theme=react&hide_border=true&background=0D1117&stroke=0000&ring=3B82F6&fire=3B82F6&currStreakLabel=C9D1D9" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hkPateL26&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=hkPateL26&show_icons=true&locale=en&layout=compact&theme=react&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=C9D1D9&cache=1" width="48%" />
 </div>
