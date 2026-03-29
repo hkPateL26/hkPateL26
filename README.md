@@ -1,7 +1,5 @@
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=28&duration=4000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=50&lines=Hi%2C+I'm+Hari+Patel+👋;AI+%2F+ML+Engineer+%E2%9A%9B%EF%B8%8F;Full+Stack+Developer+%F0%9F%92%BB;Architect+of+Sudarshan+System+%F0%9F%9B%A1%EF%B8%8F" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&height=50&lines=Hi+I+am+Hari+Patel;AI+and+ML+Engineer;Full+Stack+Developer;Architect+of+Sudarshan+System" alt="Typing SVG" />
 </div>
 
 <h3 align="center">Building the architecture of truth with code and AI 🚀</h3>
