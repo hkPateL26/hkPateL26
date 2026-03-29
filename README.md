@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&color=3B82F6&height=200&section=header&text=Hari%20Patel&fontSize=80&fontColor=ffffff&animation=fadeIn&desc=Architect%20of%20Sudarshan%20System&descSize=25&descAlignY=75&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,5,7&height=250&section=header&text=Hari%20Patel&fontSize=75&fontColor=ffffff&animation=scaleIn&desc=Architect%20of%20Sudarshan%20System&descSize=25&descAlignY=70&descAlign=50" width="100%"/>
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=22&duration=3000&pause=1000&color=8B5CF6&center=true&vCenter=true&width=600&height=50&lines=AI+%2F+ML+Engineer;Full+Stack+Developer;Building+the+Architecture+of+Truth;Transforming+Ideas+Into+Code" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=600&height=50&lines=AI+%2F+ML+Engineer;Full+Stack+Developer;Building+the+Architecture+of+Truth;Transforming+Ideas+Into+Code" alt="Typing SVG" />
   </a>
 </div>
 
