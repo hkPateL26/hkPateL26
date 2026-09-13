@@ -6,8 +6,15 @@
   alt="Hari Patel - DevOps Engineer"
 />
 
+<<<<<<< HEAD
 <img
   src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY"
+=======
+<br/>
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY;BUILD+%E2%86%92+DEPLOY+%E2%86%92+OBSERVE+%E2%86%92+SCALE"
+>>>>>>> c854b448b2c10b9e7c157a122c9dc09e2127fd9a
   alt="Typing animation"
 />
 
@@ -19,7 +26,15 @@
 <a href="https://twitter.com/hkPateL26">
   <img src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white" />
 </a>
+<<<<<<< HEAD
 <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge" />
+=======
+
+<img
+  src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"
+  alt="Profile Views"
+/>
+>>>>>>> c854b448b2c10b9e7c157a122c9dc09e2127fd9a
 
 </div>
 
@@ -69,6 +84,7 @@ I work with **AWS, Docker, GitHub Actions, Terraform, Linux, Nginx and Kubernete
 ## 🚀 What I Build
 
 ### Production Deployment
+<<<<<<< HEAD
 
 ```text
 DNS
@@ -197,6 +213,8 @@ Understanding the application layer helps me understand the infrastructure and d
 ---
 
 ## 🎯 2026 Engineering Track
+=======
+>>>>>>> c854b448b2c10b9e7c157a122c9dc09e2127fd9a
 
 ```text
 COMPLETED
