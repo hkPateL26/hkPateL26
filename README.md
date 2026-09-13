@@ -3,16 +3,21 @@
 <img
   src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-control-room.svg"
   width="100%"
+<<<<<<< HEAD
   alt="Hari Patel DevOps Engineer"
 />
 
 <img
   src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY"
   alt="Typing animation"
+=======
+  alt="Hari Patel - DevOps Engineer"
+>>>>>>> 2f382677c828451ade49263eb102fcc487c73585
 />
 
 <br/>
 
+<<<<<<< HEAD
 <a href="https://github.com/hkPateL26">
   <img src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
@@ -22,6 +27,33 @@
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"/>
+=======
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY;BUILD+%E2%86%92+DEPLOY+%E2%86%92+OBSERVE+%E2%86%92+SCALE"
+  alt="Typing animation"
+/>
+
+<br/>
+
+<a href="https://github.com/hkPateL26">
+  <img
+    src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+<a href="https://twitter.com/hkPateL26">
+  <img
+    src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white"
+    alt="X"
+  />
+</a>
+
+<img
+  src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"
+  alt="Profile Views"
+/>
+>>>>>>> 2f382677c828451ade49263eb102fcc487c73585
 
 </div>
 
@@ -42,7 +74,11 @@ I work with **AWS, Docker, GitHub Actions, Terraform, Linux, Nginx and Kubernete
 <div align="center">
 
 <img
+<<<<<<< HEAD
   src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/ops-pipeline.svg"
+=======
+  src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-pipeline.svg"
+>>>>>>> 2f382677c828451ade49263eb102fcc487c73585
   width="100%"
   alt="DevOps delivery pipeline"
 />
@@ -71,6 +107,7 @@ I work with **AWS, Docker, GitHub Actions, Terraform, Linux, Nginx and Kubernete
 ## 🚀 What I Build
 
 ### Production Deployment
+<<<<<<< HEAD
 
 ```text
 DNS
@@ -199,19 +236,16 @@ Understanding the application layer helps me understand the infrastructure and d
 ---
 
 ## 🎯 2026 Engineering Track
+=======
+>>>>>>> 2f382677c828451ade49263eb102fcc487c73585
 
 ```text
-COMPLETED
-Linux → Docker → CI/CD → AWS → Nginx → HTTPS → Terraform
-
-NEXT
-Kubernetes → Observability → Advanced AWS → Security → Reliability
-```
-
----
-
-<div align="center">
-
-### ⚡ Build the system. Automate the path. Operate it well.
-
-</div>
+DNS
+  ↓
+HTTPS
+  ↓
+Nginx
+  ↓
+Application
+  ↓
+Database
