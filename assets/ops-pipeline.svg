@@ -1,24 +1,23 @@
-<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="190" viewBox="0 0 1200 190" xmlns="http://www.w3.org/2000/svg">
 <defs>
- <linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#06111E"/><stop offset="1" stop-color="#0A1928"/></linearGradient>
- <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
- <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06101D"/><stop offset="1" stop-color="#0B1B2C"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#3B82F6"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
 </defs>
-<rect width="1200" height="220" rx="24" fill="url(#b)" stroke="#19364F"/>
-<text x="38" y="36" fill="#64748B" font-family="monospace" font-size="13">DELIVERY PATH / FROM COMMIT TO PRODUCTION</text>
-<path d="M85 112H1115" stroke="#17344D" stroke-width="4"/>
-<path d="M85 112H1115" stroke="url(#l)" stroke-width="2" stroke-dasharray="7 11"/>
-<circle cx="85" cy="112" r="7" fill="#22D3EE" filter="url(#g)">
- <animate attributeName="cx" values="85;1115;85" dur="5s" repeatCount="indefinite"/>
+<rect width="1200" height="190" rx="24" fill="url(#bg)" stroke="#1D3D57"/>
+<text x="32" y="34" fill="#64748B" font-family="monospace" font-size="12">DELIVERY PATH / COMMIT → PRODUCTION</text>
+<path d="M75 101H1125" stroke="#18364F" stroke-width="4"/>
+<path d="M75 101H1125" stroke="url(#line)" stroke-width="2" stroke-dasharray="7 11"/>
+<circle cx="75" cy="101" r="7" fill="#22D3EE">
+  <animate attributeName="cx" values="75;1125;75" dur="4.8s" repeatCount="indefinite"/>
 </circle>
 <g font-family="Arial,sans-serif" text-anchor="middle">
- <g transform="translate(45 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#22D3EE"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">CODE</text><text x="50" y="56" fill="#64748B" font-size="11">commit</text></g>
- <g transform="translate(195 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#60A5FA"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">CI</text><text x="50" y="56" fill="#64748B" font-size="11">build / test</text></g>
- <g transform="translate(345 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#A78BFA"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">IMAGE</text><text x="50" y="56" fill="#64748B" font-size="11">Docker</text></g>
- <g transform="translate(495 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#F59E0B"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">CLOUD</text><text x="50" y="56" fill="#64748B" font-size="11">AWS</text></g>
- <g transform="translate(645 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#34D399"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">EDGE</text><text x="50" y="56" fill="#64748B" font-size="11">Nginx / TLS</text></g>
- <g transform="translate(795 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#22D3EE"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">OBSERVE</text><text x="50" y="56" fill="#64748B" font-size="11">metrics / logs</text></g>
- <g transform="translate(945 73)"><rect width="100" height="78" rx="16" fill="#0A1C2D" stroke="#8B5CF6"/><text x="50" y="35" fill="#F8FAFC" font-size="15" font-weight="800">SCALE</text><text x="50" y="56" fill="#64748B" font-size="11">Kubernetes</text></g>
- <g transform="translate(1095 73)"><rect width="60" height="78" rx="16" fill="#0A1C2D" stroke="#34D399"/><text x="30" y="35" fill="#F8FAFC" font-size="15" font-weight="800">LIVE</text><text x="30" y="56" fill="#34D399" font-size="11">✓</text></g>
+  <g transform="translate(35 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#22D3EE"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">CODE</text><text x="50" y="54" fill="#64748B" font-size="11">git</text></g>
+  <g transform="translate(185 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#60A5FA"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">CI</text><text x="50" y="54" fill="#64748B" font-size="11">build / test</text></g>
+  <g transform="translate(335 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#A78BFA"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">DOCKER</text><text x="50" y="54" fill="#64748B" font-size="11">image</text></g>
+  <g transform="translate(485 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#F59E0B"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">AWS</text><text x="50" y="54" fill="#64748B" font-size="11">cloud</text></g>
+  <g transform="translate(635 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#34D399"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">NGINX</text><text x="50" y="54" fill="#64748B" font-size="11">HTTPS</text></g>
+  <g transform="translate(785 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#22D3EE"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">OBSERVE</text><text x="50" y="54" fill="#64748B" font-size="11">logs / metrics</text></g>
+  <g transform="translate(935 64)"><rect width="100" height="74" rx="15" fill="#0A1B2A" stroke="#A78BFA"/><text x="50" y="34" fill="#F8FAFC" font-weight="800" font-size="14">K8S</text><text x="50" y="54" fill="#64748B" font-size="11">scale</text></g>
+  <g transform="translate(1085 64)"><rect width="80" height="74" rx="15" fill="#0A1B2A" stroke="#34D399"/><text x="40" y="34" fill="#F8FAFC" font-weight="800" font-size="14">LIVE</text><text x="40" y="54" fill="#34D399" font-size="11">✓</text></g>
 </g>
 </svg>

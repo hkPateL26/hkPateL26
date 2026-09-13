@@ -1,0 +1,75 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#07111F"/><stop offset="1" stop-color="#0A1D2E"/>
+  </linearGradient>
+  <linearGradient id="l" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="26" fill="url(#b)" stroke="#1B3C57"/>
+<text x="36" y="37" fill="#64748B" font-family="monospace" font-size="13">ENGINEERING WORKSPACE / LIVE DELIVERY MODEL</text>
+
+<!-- central pipeline -->
+<path d="M95 146 H1105" stroke="#1B3B54" stroke-width="4"/>
+<path d="M95 146 H1105" stroke="url(#l)" stroke-width="2" stroke-dasharray="8 12"/>
+
+<g font-family="Arial,sans-serif" text-anchor="middle">
+  <g transform="translate(45 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#22D3EE"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">APP</text>
+    <text x="57.5" y="61" fill="#7DD3FC" font-size="12">Node / Python</text>
+  </g>
+  <g transform="translate(195 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#60A5FA"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">CI/CD</text>
+    <text x="57.5" y="61" fill="#93C5FD" font-size="12">GitHub Actions</text>
+  </g>
+  <g transform="translate(345 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#A78BFA"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">DOCKER</text>
+    <text x="57.5" y="61" fill="#C4B5FD" font-size="12">Container</text>
+  </g>
+  <g transform="translate(495 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#F59E0B"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">AWS</text>
+    <text x="57.5" y="61" fill="#FCD34D" font-size="12">Cloud</text>
+  </g>
+  <g transform="translate(645 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#34D399"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">NGINX</text>
+    <text x="57.5" y="61" fill="#86EFAC" font-size="12">HTTPS / Edge</text>
+  </g>
+  <g transform="translate(795 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#22D3EE"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">OBSERVE</text>
+    <text x="57.5" y="61" fill="#7DD3FC" font-size="12">Metrics / Logs</text>
+  </g>
+  <g transform="translate(945 102)">
+    <rect width="115" height="88" rx="18" fill="#0A1D2D" stroke="#A78BFA"/>
+    <text x="57.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">TERRAFORM</text>
+    <text x="57.5" y="61" fill="#C4B5FD" font-size="12">IaC</text>
+  </g>
+  <g transform="translate(1090 102)">
+    <rect width="65" height="88" rx="18" fill="#0A1D2D" stroke="#34D399"/>
+    <text x="32.5" y="39" fill="#F8FAFC" font-size="17" font-weight="800">LIVE</text>
+    <text x="32.5" y="61" fill="#86EFAC" font-size="12">✓</text>
+  </g>
+</g>
+
+<circle cx="95" cy="146" r="7" fill="#22D3EE" filter="url(#g)">
+  <animate attributeName="cx" values="95;1120;95" dur="5.2s" repeatCount="indefinite"/>
+</circle>
+
+<g font-family="monospace" font-size="13">
+  <text x="95" y="244" fill="#94A3B8">DEPLOYMENT:</text>
+  <text x="207" y="244" fill="#22D3EE">REPEATABLE</text>
+  <text x="340" y="244" fill="#475569">•</text>
+  <text x="360" y="244" fill="#60A5FA">AUTOMATED</text>
+  <text x="485" y="244" fill="#475569">•</text>
+  <text x="505" y="244" fill="#A78BFA">OBSERVABLE</text>
+  <text x="650" y="244" fill="#475569">•</text>
+  <text x="670" y="244" fill="#34D399">SECURE</text>
+</g>
+</svg>

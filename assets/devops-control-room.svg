@@ -1,208 +1,131 @@
 <svg width="1400" height="560" viewBox="0 0 1400 560" xmlns="http://www.w3.org/2000/svg">
 <defs>
-  <radialGradient id="bg" cx="50%" cy="48%" r="75%">
-    <stop offset="0%" stop-color="#112B45"/>
-    <stop offset="48%" stop-color="#08182B"/>
-    <stop offset="100%" stop-color="#030811"/>
+  <radialGradient id="bg" cx="50%" cy="48%" r="74%">
+    <stop offset="0" stop-color="#102944"/>
+    <stop offset=".48" stop-color="#07182B"/>
+    <stop offset="1" stop-color="#02060D"/>
   </radialGradient>
-
   <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#22D3EE"/>
-    <stop offset="100%" stop-color="#3B82F6"/>
+    <stop stop-color="#22D3EE"/><stop offset="1" stop-color="#3B82F6"/>
   </linearGradient>
-
-  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0%" stop-color="#8B5CF6"/>
-    <stop offset="100%" stop-color="#EC4899"/>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/>
   </linearGradient>
-
-  <linearGradient id="green" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0%" stop-color="#34D399"/>
-    <stop offset="100%" stop-color="#22D3EE"/>
-  </linearGradient>
-
   <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-    <path d="M32 0H0V32" fill="none" stroke="#21405D" stroke-opacity=".18"/>
+    <path d="M32 0H0V32" fill="none" stroke="#21415E" stroke-opacity=".16"/>
   </pattern>
-
-  <filter id="glow">
-    <feGaussianBlur stdDeviation="5" result="blur"/>
-    <feMerge>
-      <feMergeNode in="blur"/>
-      <feMergeNode in="SourceGraphic"/>
-    </feMerge>
-  </filter>
-
-  <filter id="soft">
-    <feGaussianBlur stdDeviation="28"/>
-  </filter>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
 </defs>
 
-<!-- Background -->
 <rect width="1400" height="560" rx="34" fill="url(#bg)"/>
 <rect width="1400" height="560" rx="34" fill="url(#grid)"/>
 
-<!-- Ambient glow -->
-<circle cx="700" cy="300" r="180" fill="#22D3EE" opacity=".045" filter="url(#soft)"/>
-<circle cx="700" cy="300" r="275" fill="none" stroke="#1C4664" stroke-opacity=".18"/>
-<circle cx="700" cy="300" r="205" fill="none" stroke="#1C4664" stroke-opacity=".22"/>
-<circle cx="700" cy="300" r="138" fill="none" stroke="#1C4664" stroke-opacity=".28"/>
+<circle cx="700" cy="286" r="160" fill="#22D3EE" opacity=".045" filter="url(#soft)"/>
+<circle cx="700" cy="286" r="250" fill="none" stroke="#1C4664" stroke-opacity=".16"/>
+<circle cx="700" cy="286" r="205" fill="none" stroke="#1C4664" stroke-opacity=".20"/>
+<circle cx="700" cy="286" r="145" fill="none" stroke="#1C4664" stroke-opacity=".24"/>
 
-<!-- Header -->
-<text x="48" y="52"
-      fill="#64748B" font-family="monospace" font-size="14">
-  HARI.PATEL / DEVOPS.ENGINEER / CLOUD.SYSTEMS
+<text x="46" y="48" fill="#64748B" font-family="monospace" font-size="14" letter-spacing="1">
+  HARI.PATEL / DEVOPS / CLOUD / AUTOMATION
 </text>
-
-<circle cx="1285" cy="45" r="7" fill="#34D399" filter="url(#glow)">
-  <animate attributeName="opacity" values="1;.25;1" dur="1.3s" repeatCount="indefinite"/>
+<circle cx="1270" cy="45" r="7" fill="#34D399" filter="url(#glow)">
+  <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
 </circle>
+<text x="1290" y="51" fill="#A7F3D0" font-family="monospace" font-size="13">ONLINE</text>
 
-<text x="1305" y="51"
-      fill="#A7F3D0" font-family="monospace" font-size="13">
-  ONLINE
-</text>
+<!-- connector paths -->
+<g fill="none" stroke-width="2.5">
+  <path id="a1" d="M588 242 C486 204 395 165 272 142" stroke="#22D3EE" stroke-opacity=".72"/>
+  <path id="a2" d="M570 286 C455 286 350 286 242 286" stroke="#60A5FA" stroke-opacity=".72"/>
+  <path id="a3" d="M588 332 C486 372 395 413 272 438" stroke="#A78BFA" stroke-opacity=".72"/>
+  <path id="b1" d="M812 242 C914 204 1005 165 1128 142" stroke="#8B5CF6" stroke-opacity=".72"/>
+  <path id="b2" d="M830 286 C945 286 1050 286 1158 286" stroke="#F59E0B" stroke-opacity=".72"/>
+  <path id="b3" d="M812 332 C914 372 1005 413 1128 438" stroke="#EC4899" stroke-opacity=".72"/>
+</g>
 
-<!-- Center core -->
-<circle cx="700" cy="300" r="112" fill="#06111E" stroke="url(#cyan)" stroke-width="3"/>
-<circle cx="700" cy="300" r="92" fill="none" stroke="#173F5C" stroke-width="2"/>
-<circle cx="700" cy="300" r="68" fill="none" stroke="#8B5CF6" stroke-opacity=".5"/>
+<!-- moving packets -->
+<g filter="url(#glow)">
+  <circle r="6" fill="#22D3EE"><animateMotion dur="2.7s" repeatCount="indefinite"><mpath href="#a1"/></animateMotion></circle>
+  <circle r="6" fill="#60A5FA"><animateMotion dur="3.0s" repeatCount="indefinite"><mpath href="#a2"/></animateMotion></circle>
+  <circle r="6" fill="#A78BFA"><animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#a3"/></animateMotion></circle>
+  <circle r="6" fill="#8B5CF6"><animateMotion dur="2.9s" repeatCount="indefinite"><mpath href="#b1"/></animateMotion></circle>
+  <circle r="6" fill="#F59E0B"><animateMotion dur="3.1s" repeatCount="indefinite"><mpath href="#b2"/></animateMotion></circle>
+  <circle r="6" fill="#EC4899"><animateMotion dur="3.3s" repeatCount="indefinite"><mpath href="#b3"/></animateMotion></circle>
+</g>
 
-<!-- rotating ring -->
-<path d="M700 183 A117 117 0 1 1 699.9 183"
-      fill="none"
-      stroke="#22D3EE"
-      stroke-width="4"
-      stroke-linecap="round"
-      stroke-dasharray="62 300">
-  <animateTransform attributeName="transform"
-                    type="rotate"
-                    from="0 700 300"
-                    to="360 700 300"
-                    dur="8s"
-                    repeatCount="indefinite"/>
+<!-- center identity -->
+<circle cx="700" cy="286" r="116" fill="#050C17" stroke="url(#cyan)" stroke-width="3"/>
+<circle cx="700" cy="286" r="96" fill="none" stroke="#173D58" stroke-width="2"/>
+<circle cx="700" cy="286" r="73" fill="none" stroke="#8B5CF6" stroke-opacity=".52" stroke-width="2"/>
+
+<path d="M700 153 A133 133 0 1 1 699.9 153"
+      fill="none" stroke="#22D3EE" stroke-width="4"
+      stroke-linecap="round" stroke-dasharray="74 340">
+  <animateTransform attributeName="transform" type="rotate"
+                    from="0 700 286" to="360 700 286"
+                    dur="8s" repeatCount="indefinite"/>
 </path>
 
-<text x="700" y="286"
-      text-anchor="middle"
-      fill="#F8FAFC"
-      font-family="Arial, sans-serif"
-      font-size="31"
-      font-weight="800">
-  HARI PATEL
+<!-- opaque typography plate prevents any line overlap -->
+<rect x="596" y="234" width="208" height="103" rx="22"
+      fill="#06111D" stroke="#18354C" stroke-width="1.5"/>
+
+<text x="700" y="270" text-anchor="middle"
+      fill="#F8FAFC" font-family="Arial, sans-serif"
+      font-size="31" font-weight="800">HARI PATEL</text>
+
+<text x="700" y="300" text-anchor="middle"
+      fill="#22D3EE" font-family="Arial, sans-serif"
+      font-size="18" font-weight="800" letter-spacing=".6">DEVOPS ENGINEER</text>
+
+<text x="700" y="324" text-anchor="middle"
+      fill="#94A3B8" font-family="monospace" font-size="11"
+      letter-spacing=".5">CLOUD • AUTOMATION • RELIABILITY</text>
+
+<!-- left nodes -->
+<g font-family="Arial, sans-serif">
+  <rect x="66" y="101" width="255" height="84" rx="20" fill="#071727" stroke="#22D3EE" stroke-width="2"/>
+  <text x="193.5" y="137" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">AWS</text>
+  <text x="193.5" y="160" text-anchor="middle" fill="#7DD3FC" font-size="12">CLOUD INFRASTRUCTURE</text>
+
+  <rect x="48" y="244" width="275" height="84" rx="20" fill="#071727" stroke="#60A5FA" stroke-width="2"/>
+  <text x="185.5" y="280" text-anchor="middle" fill="#F8FAFC" font-size="20" font-weight="800">GITHUB ACTIONS</text>
+  <text x="185.5" y="303" text-anchor="middle" fill="#93C5FD" font-size="12">CI / CD AUTOMATION</text>
+
+  <rect x="66" y="387" width="255" height="84" rx="20" fill="#071727" stroke="#A78BFA" stroke-width="2"/>
+  <text x="193.5" y="423" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">DOCKER</text>
+  <text x="193.5" y="446" text-anchor="middle" fill="#C4B5FD" font-size="12">CONTAINERIZATION</text>
+</g>
+
+<!-- right nodes -->
+<g font-family="Arial, sans-serif">
+  <rect x="1079" y="101" width="255" height="84" rx="20" fill="#071727" stroke="#8B5CF6" stroke-width="2"/>
+  <text x="1206.5" y="137" text-anchor="middle" fill="#F8FAFC" font-size="20" font-weight="800">TERRAFORM</text>
+  <text x="1206.5" y="160" text-anchor="middle" fill="#C4B5FD" font-size="12">INFRASTRUCTURE AS CODE</text>
+
+  <rect x="1079" y="244" width="255" height="84" rx="20" fill="#071727" stroke="#F59E0B" stroke-width="2"/>
+  <text x="1206.5" y="280" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">NGINX</text>
+  <text x="1206.5" y="303" text-anchor="middle" fill="#FCD34D" font-size="12">REVERSE PROXY • HTTPS</text>
+
+  <rect x="1079" y="387" width="255" height="84" rx="20" fill="#071727" stroke="#EC4899" stroke-width="2"/>
+  <text x="1206.5" y="423" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">LINUX</text>
+  <text x="1206.5" y="446" text-anchor="middle" fill="#F9A8D4" font-size="12">PRODUCTION OPERATIONS</text>
+</g>
+
+<rect x="420" y="449" width="560" height="43" rx="21"
+      fill="#081A2A" stroke="#214661"/>
+<text x="700" y="476" text-anchor="middle"
+      fill="#67E8F9" font-family="monospace"
+      font-size="14" font-weight="700">
+  BUILD → DEPLOY → OBSERVE → SECURE → SCALE
 </text>
 
-<text x="700" y="317"
-      text-anchor="middle"
-      fill="#22D3EE"
-      font-family="Arial, sans-serif"
-      font-size="19"
-      font-weight="800">
-  DEVOPS ENGINEER
-</text>
-
-<text x="700" y="342"
-      text-anchor="middle"
-      fill="#94A3B8"
-      font-family="monospace"
-      font-size="12">
-  CLOUD • AUTOMATION • RELIABILITY
-</text>
-
-<!-- Connector paths -->
-<g fill="none" stroke-width="2.5">
-  <path id="aws" d="M605 245 C500 205 430 175 285 150" stroke="#22D3EE" stroke-opacity=".72"/>
-  <path id="ci" d="M588 300 C490 300 410 300 285 300" stroke="#60A5FA" stroke-opacity=".72"/>
-  <path id="docker" d="M605 355 C500 395 430 425 285 450" stroke="#A78BFA" stroke-opacity=".72"/>
-
-  <path id="tf" d="M795 245 C900 205 970 175 1115 150" stroke="#8B5CF6" stroke-opacity=".72"/>
-  <path id="nginx" d="M812 300 C910 300 990 300 1115 300" stroke="#F59E0B" stroke-opacity=".72"/>
-  <path id="linux" d="M795 355 C900 395 970 425 1115 450" stroke="#EC4899" stroke-opacity=".72"/>
-</g>
-
-<!-- Moving packets -->
-<g filter="url(#glow)">
-  <circle r="6" fill="#22D3EE">
-    <animateMotion dur="2.7s" repeatCount="indefinite"><mpath href="#aws"/></animateMotion>
-  </circle>
-  <circle r="6" fill="#60A5FA">
-    <animateMotion dur="3s" repeatCount="indefinite"><mpath href="#ci"/></animateMotion>
-  </circle>
-  <circle r="6" fill="#A78BFA">
-    <animateMotion dur="3.2s" repeatCount="indefinite"><mpath href="#docker"/></animateMotion>
-  </circle>
-  <circle r="6" fill="#8B5CF6">
-    <animateMotion dur="2.9s" repeatCount="indefinite"><mpath href="#tf"/></animateMotion>
-  </circle>
-  <circle r="6" fill="#F59E0B">
-    <animateMotion dur="3.1s" repeatCount="indefinite"><mpath href="#nginx"/></animateMotion>
-  </circle>
-  <circle r="6" fill="#EC4899">
-    <animateMotion dur="3.3s" repeatCount="indefinite"><mpath href="#linux"/></animateMotion>
-  </circle>
-</g>
-
-<!-- Node card helper style repeated manually for reliable SVG rendering -->
-
-<!-- Left top -->
-<g font-family="Arial, sans-serif">
-  <rect x="80" y="108" width="235" height="84" rx="20" fill="#071727" stroke="#22D3EE" stroke-width="2"/>
-  <text x="197.5" y="144" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">AWS</text>
-  <text x="197.5" y="166" text-anchor="middle" fill="#7DD3FC" font-size="12">CLOUD INFRASTRUCTURE</text>
-</g>
-
-<!-- Left middle -->
-<g font-family="Arial, sans-serif">
-  <rect x="80" y="258" width="235" height="84" rx="20" fill="#071727" stroke="#60A5FA" stroke-width="2"/>
-  <text x="197.5" y="294" text-anchor="middle" fill="#F8FAFC" font-size="21" font-weight="800">GITHUB ACTIONS</text>
-  <text x="197.5" y="316" text-anchor="middle" fill="#93C5FD" font-size="12">CI / CD AUTOMATION</text>
-</g>
-
-<!-- Left bottom -->
-<g font-family="Arial, sans-serif">
-  <rect x="80" y="408" width="235" height="84" rx="20" fill="#071727" stroke="#A78BFA" stroke-width="2"/>
-  <text x="197.5" y="444" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">DOCKER</text>
-  <text x="197.5" y="466" text-anchor="middle" fill="#C4B5FD" font-size="12">CONTAINERIZATION</text>
-</g>
-
-<!-- Right top -->
-<g font-family="Arial, sans-serif">
-  <rect x="1085" y="108" width="235" height="84" rx="20" fill="#071727" stroke="#8B5CF6" stroke-width="2"/>
-  <text x="1202.5" y="144" text-anchor="middle" fill="#F8FAFC" font-size="21" font-weight="800">TERRAFORM</text>
-  <text x="1202.5" y="166" text-anchor="middle" fill="#C4B5FD" font-size="12">INFRASTRUCTURE AS CODE</text>
-</g>
-
-<!-- Right middle -->
-<g font-family="Arial, sans-serif">
-  <rect x="1085" y="258" width="235" height="84" rx="20" fill="#071727" stroke="#F59E0B" stroke-width="2"/>
-  <text x="1202.5" y="294" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">NGINX</text>
-  <text x="1202.5" y="316" text-anchor="middle" fill="#FCD34D" font-size="12">REVERSE PROXY • HTTPS</text>
-</g>
-
-<!-- Right bottom -->
-<g font-family="Arial, sans-serif">
-  <rect x="1085" y="408" width="235" height="84" rx="20" fill="#071727" stroke="#EC4899" stroke-width="2"/>
-  <text x="1202.5" y="444" text-anchor="middle" fill="#F8FAFC" font-size="22" font-weight="800">LINUX</text>
-  <text x="1202.5" y="466" text-anchor="middle" fill="#F9A8D4" font-size="12">PRODUCTION OPERATIONS</text>
-</g>
-
-<!-- bottom mission strip -->
-<rect x="425" y="455" width="550" height="42" rx="21" fill="#081A2A" stroke="#204561"/>
-<text x="700" y="482" text-anchor="middle"
-      fill="#67E8F9" font-family="monospace" font-size="14" font-weight="700">
-  BUILD  →  DEPLOY  →  OBSERVE  →  SECURE  →  SCALE
-</text>
-
-<!-- scan line -->
-<rect x="18" y="18" width="3" height="524" fill="#22D3EE" opacity=".18">
-  <animate attributeName="x" values="18;1380;18" dur="6s" repeatCount="indefinite"/>
-</rect>
-
-<!-- footer microcopy -->
-<text x="50" y="535" fill="#334155" font-family="monospace" font-size="12">
+<text x="48" y="530" fill="#334155" font-family="monospace" font-size="12">
   production-minded engineering
 </text>
-<text x="1350" y="535" text-anchor="end" fill="#475569" font-family="monospace" font-size="12">
+<text x="1352" y="530" text-anchor="end"
+      fill="#475569" font-family="monospace" font-size="12">
   secure • repeatable • observable
 </text>
 </svg>
