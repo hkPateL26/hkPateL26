@@ -1,165 +1,84 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-control-room.gif" width="100%" alt="Hari Patel DevOps Control Room"/>
+<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-control-room.svg" width="100%" alt="Hari Patel DevOps Engineer — Control Room"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1050&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY;BUILD+%E2%86%92+DEPLOY+%E2%86%92+OBSERVE+%E2%86%92+SCALE" alt="Typing animation"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2200&pause=700&color=22D3EE&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY" alt="Role animation"/>
-
-<p>
-  <a href="https://github.com/hkPateL26">
-    <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/hkPateL26">
-    <img src="https://img.shields.io/badge/X-0B1220?style=for-the-badge&logo=x&logoColor=white"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=06B6D4&style=for-the-badge"/>
-</p>
+<img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"/>
+<a href="https://github.com/hkPateL26"><img src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github"/></a>
+<a href="https://twitter.com/hkPateL26"><img src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white"/></a>
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="64%" valign="top">
+## 👨‍💻 Who I Am
 
-### 👨‍💻 DevOps Engineer
+**DevOps Engineer** focused on building reliable paths from **application code to production**.
 
-I build the layer between **application code and reliable production systems**.
+I work with **AWS, Docker, GitHub Actions, Terraform, Linux, Nginx and Kubernetes**, while bringing an earlier background in **AI/ML, Computer Vision and backend/full-stack development**.
 
-My current focus is **cloud infrastructure, CI/CD automation, containers, Infrastructure as Code and production operations**.
+### What I care about
 
-```text
-Cloud        → AWS
-Containers   → Docker • Compose
-CI/CD        → GitHub Actions
-IaC          → Terraform
-Orchestration→ Kubernetes
-Edge / OS    → Nginx • Linux • HTTPS
-Operations   → Logs • Monitoring • Reliability
-```
-
-</td>
-<td width="36%" valign="top">
-
-### 🟢 Current Focus
-
-```text
-AWS             ██████████
-Docker          ██████████
-CI/CD           ██████████
-Terraform       █████████░
-Linux           ██████████
-Kubernetes      ███████░░░
-Observability   ██████░░░░
-```
-
-</td>
-</tr>
-</table>
+`Repeatable deployments` · `Clean infrastructure` · `Useful automation` · `Production reliability`
 
 ---
-
-## ⚡ Delivery Architecture
 
 <div align="center">
 
-```text
-   CODE
-     │
-     ▼
-  GITHUB
-     │
-     ▼
-  CI / CD
-     │
-     ▼
-  DOCKER
-     │
-     ▼
-    AWS
-     │
-     ▼
-   NGINX
-     │
-     ▼
-  APP / API
-     │
-     ▼
- DATABASE
-```
-
-**Build → Deploy → Observe → Secure → Scale**
+<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-pipeline.svg" width="96%" alt="DevOps delivery pipeline"/>
 
 </div>
 
 ---
 
-## 🧰 Core Toolchain
+## ☁️ Cloud & Infrastructure
 
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux,nginx,githubactions,git,prometheus,grafana&theme=dark&perline=10"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,fastapi,postgres,mysql,redis,bash,postman&theme=dark&perline=10"/>
-
-</div>
+| Domain | Stack |
+|---|---|
+| **Cloud** | AWS · EC2 · VPC · IAM · Security Groups |
+| **Containers** | Docker · Docker Compose |
+| **CI/CD** | GitHub Actions |
+| **IaC** | Terraform |
+| **Orchestration** | Kubernetes |
+| **Web / Edge** | Nginx · HTTPS · SSL/TLS |
+| **Linux / Ops** | Linux · SSH · systemd · PM2 |
+| **Observability** | Prometheus · Grafana |
+| **Application** | Node.js · NestJS · Python · FastAPI |
+| **Data** | PostgreSQL · MySQL · Redis |
 
 ---
 
 ## 🚀 What I Build
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Production deployment**
 
-### ☁️ Cloud Infrastructure
-AWS EC2, networking, security groups and production-oriented server environments.
+`DNS → HTTPS → Nginx → Application → Database`
 
-### 🔄 CI/CD Automation
-GitHub Actions pipelines for build, test and automated deployment.
+**Automated delivery**
 
-</td>
-<td width="50%" valign="top">
+`git push → CI → Build → Docker → Deploy → Health Check`
 
-### 🐳 Containerized Delivery
-Docker / Compose environments with Nginx and application services.
+**Infrastructure as Code**
 
-### 🏗️ Infrastructure as Code
-Terraform configurations for repeatable, reviewable cloud infrastructure.
+`Terraform → Plan → Review → Apply → AWS`
 
-</td>
-</tr>
-</table>
+**Troubleshooting**
 
----
-
-## 🧠 Engineering Principles
-
-<div align="center">
-
-**AUTOMATE WHAT REPEATS**  
-**OBSERVE WHAT RUNS**  
-**SECURE WHAT MATTERS**  
-**DOCUMENT WHAT BREAKS**
-
-</div>
+`Observe → Isolate → Verify → Fix → Document`
 
 ---
 
 <details>
-<summary><b>🤖 AI/ML + Full Stack Background</b></summary>
+<summary>🤖 <b>AI/ML & Application Engineering Background</b></summary>
 
 <br/>
 
-My current direction is **DevOps & Cloud Engineering**, supported by previous experience in:
+**AI/ML · Computer Vision · Python · FastAPI · Django · Node.js · NestJS · React · TypeScript**
 
-`AI / ML` · `Computer Vision` · `Python` · `FastAPI` · `Django` · `Node.js` · `NestJS` · `React` · `TypeScript`
-
-Understanding the application layer helps me reason about the infrastructure and delivery systems underneath it.
+My current direction is **DevOps & Cloud Engineering**. My application-development background helps me understand what the infrastructure is actually running.
 
 </details>
 
@@ -174,7 +93,7 @@ Understanding the application layer helps me reason about the infrastructure and
 
 <br/><br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hkPateL26&layout=compact&hide_border=true&theme=github_dark&langs_count=8" width="52%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hkPateL26&layout=compact&hide_border=true&theme=github_dark&langs_count=8" width="50%"/>
 
 </div>
 
@@ -183,34 +102,25 @@ Understanding the application layer helps me reason about the infrastructure and
 ## 🐍 Contribution Stream
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution animation"/>
-
+<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake"/>
 </div>
 
 ---
 
-## 🎯 2026 Focus
+## 🎯 2026 Engineering Track
 
 ```text
-✓ Linux & production server management
-✓ Docker & Docker Compose
-✓ GitHub Actions / CI-CD
-✓ AWS deployments
-✓ Nginx + HTTPS
-✓ Terraform / Infrastructure as Code
+COMPLETED
+Linux → Docker → CI/CD → AWS → Nginx → HTTPS → Terraform
 
-→ Kubernetes
-→ Prometheus + Grafana
-→ Advanced AWS architecture
-→ Security & reliability engineering
-→ Production-grade automation
+NEXT
+Kubernetes → Observability → Advanced AWS → Security → Reliability
 ```
 
 ---
 
 <div align="center">
 
-### ⚙️ Build systems that are easier to deploy, operate and trust.
+### ⚡ Build the system. Automate the path. Operate it well.
 
 </div>
