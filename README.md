@@ -6,14 +6,22 @@
   alt="Hari Patel DevOps Engineer"
 />
 
+<<<<<<< HEAD
 <img
   src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY"
+=======
+<br/>
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2300&pause=750&color=67E8F9&center=true&vCenter=true&width=1000&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%7C+DOCKER+%7C+KUBERNETES+%7C+TERRAFORM;CI%2FCD+%7C+LINUX+%7C+NGINX+%7C+OBSERVABILITY;BUILD+%E2%86%92+DEPLOY+%E2%86%92+OBSERVE+%E2%86%92+SCALE"
+>>>>>>> d86e270d4ae32212734d450ff4bc4768ba9c573d
   alt="Typing animation"
 />
 
 <br/>
 
 <a href="https://github.com/hkPateL26">
+<<<<<<< HEAD
   <img src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
@@ -22,6 +30,25 @@
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"/>
+=======
+  <img
+    src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+<a href="https://twitter.com/hkPateL26">
+  <img
+    src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white"
+    alt="X"
+  />
+</a>
+
+<img
+  src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"
+  alt="Profile Views"
+/>
+>>>>>>> d86e270d4ae32212734d450ff4bc4768ba9c573d
 
 </div>
 
@@ -82,6 +109,7 @@ Nginx
 Application
   ↓
 Database
+<<<<<<< HEAD
 ```
 
 ### Automated Delivery
@@ -215,3 +243,5 @@ Kubernetes → Observability → Advanced AWS → Security → Reliability
 ### ⚡ Build the system. Automate the path. Operate it well.
 
 </div>
+=======
+>>>>>>> d86e270d4ae32212734d450ff4bc4768ba9c573d
