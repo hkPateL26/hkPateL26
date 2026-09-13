@@ -1,0 +1,109 @@
+<svg width="1400" height="470" viewBox="0 0 1400 470" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050B16"/>
+    <stop offset=".48" stop-color="#0A1427"/>
+    <stop offset="1" stop-color="#061C2A"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#60A5FA"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/>
+    <stop offset="1" stop-color="#EC4899"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#1E3A5F" stroke-opacity=".22"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="1400" height="470" rx="30" fill="url(#bg)"/>
+<rect width="1400" height="470" rx="30" fill="url(#grid)"/>
+<rect x="0" y="0" width="1400" height="5" fill="url(#cyan)"/>
+
+<!-- moving scan -->
+<rect x="20" y="18" width="4" height="410" fill="#22D3EE" opacity=".15">
+  <animate attributeName="x" values="20;1380;20" dur="7s" repeatCount="indefinite"/>
+</rect>
+
+<!-- command terminal -->
+<rect x="55" y="65" width="505" height="330" rx="20" fill="#07101D" stroke="#1D4ED8" stroke-width="2"/>
+<circle cx="84" cy="94" r="6" fill="#FB7185"/>
+<circle cx="104" cy="94" r="6" fill="#FBBF24"/>
+<circle cx="124" cy="94" r="6" fill="#34D399"/>
+<text x="155" y="99" fill="#64748B" font-family="monospace" font-size="14">hari@cloud:~</text>
+<line x1="55" y1="120" x2="560" y2="120" stroke="#17324D"/>
+
+<g font-family="monospace" font-size="18">
+  <text x="84" y="155" fill="#64748B">$</text>
+  <text x="105" y="155" fill="#22D3EE">terraform</text>
+  <text x="220" y="155" fill="#E2E8F0">plan</text>
+  <text x="84" y="184" fill="#34D399">Plan: 8 to add.</text>
+
+  <text x="84" y="220" fill="#64748B">$</text>
+  <text x="105" y="220" fill="#60A5FA">docker</text>
+  <text x="185" y="220" fill="#E2E8F0">build -t app .</text>
+  <text x="84" y="249" fill="#34D399">✓ image ready</text>
+
+  <text x="84" y="285" fill="#64748B">$</text>
+  <text x="105" y="285" fill="#A78BFA">deploy</text>
+  <text x="185" y="285" fill="#E2E8F0">--production</text>
+  <text x="84" y="314" fill="#34D399">✓ rollout healthy</text>
+
+  <text x="84" y="350" fill="#64748B">status:</text>
+  <text x="165" y="350" fill="#34D399">● ONLINE</text>
+</g>
+
+<!-- center title -->
+<text x="615" y="105" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="64" font-weight="800">HARI PATEL</text>
+<text x="619" y="151" fill="#22D3EE" font-family="Arial, sans-serif" font-size="29" font-weight="800">DEVOPS ENGINEER</text>
+<text x="620" y="187" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="20">Cloud Infrastructure • Automation • Reliability</text>
+
+<!-- animated pipeline -->
+<g font-family="Arial, sans-serif" font-weight="700" font-size="14">
+  <g>
+    <rect x="620" y="230" width="108" height="54" rx="14" fill="#0C2135" stroke="#22D3EE"/>
+    <text x="674" y="263" fill="#E2E8F0" text-anchor="middle">GIT</text>
+  </g>
+  <g>
+    <rect x="758" y="230" width="108" height="54" rx="14" fill="#0C2135" stroke="#60A5FA"/>
+    <text x="812" y="263" fill="#E2E8F0" text-anchor="middle">CI/CD</text>
+  </g>
+  <g>
+    <rect x="896" y="230" width="108" height="54" rx="14" fill="#0C2135" stroke="#22D3EE"/>
+    <text x="950" y="263" fill="#E2E8F0" text-anchor="middle">DOCKER</text>
+  </g>
+  <g>
+    <rect x="1034" y="230" width="108" height="54" rx="14" fill="#0C2135" stroke="#8B5CF6"/>
+    <text x="1088" y="263" fill="#E2E8F0" text-anchor="middle">AWS</text>
+  </g>
+  <g>
+    <rect x="1172" y="230" width="108" height="54" rx="14" fill="#0C2135" stroke="#34D399"/>
+    <text x="1226" y="263" fill="#E2E8F0" text-anchor="middle">K8S</text>
+  </g>
+
+  <path d="M728 257H758M866 257H896M1004 257H1034M1142 257H1172" stroke="url(#cyan)" stroke-width="3"/>
+  <circle cx="728" cy="257" r="5" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="cx" values="620;1280;620" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- lower slogan -->
+<text x="620" y="340" fill="#F8FAFC" font-family="monospace" font-size="21">BUILD → DEPLOY → OBSERVE → SECURE → SCALE</text>
+<rect x="620" y="365" width="330" height="35" rx="17.5" fill="#092B2A" stroke="#1E6A58"/>
+<circle cx="642" cy="382.5" r="7" fill="#34D399" filter="url(#glow)">
+  <animate attributeName="opacity" values="1;.25;1" dur="1.2s" repeatCount="indefinite"/>
+</circle>
+<text x="660" y="389" fill="#A7F3D0" font-family="monospace" font-size="15">production mindset / online</text>
+
+<!-- ambient particles -->
+<g fill="#22D3EE">
+  <circle cx="1180" cy="60" r="2"><animate attributeName="cy" values="60;40;60" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="1240" cy="100" r="2"><animate attributeName="cy" values="100;125;100" dur="3.1s" repeatCount="indefinite"/></circle>
+  <circle cx="1300" cy="70" r="2"><animate attributeName="cy" values="70;50;70" dur="2.1s" repeatCount="indefinite"/></circle>
+</g>
+
+<text x="1335" y="430" fill="#475569" font-family="monospace" font-size="13" text-anchor="end">cloud-native / engineering systems</text>
+</svg>
