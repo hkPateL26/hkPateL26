@@ -1,0 +1,139 @@
+<svg width="1400" height="520" viewBox="0 0 1400 520" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#030712"/>
+    <stop offset=".48" stop-color="#071426"/>
+    <stop offset="1" stop-color="#08212D"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#60A5FA"/>
+  </linearGradient>
+  <linearGradient id="violet" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#8B5CF6"/>
+    <stop offset="1" stop-color="#EC4899"/>
+  </linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#1E3A5F" stroke-opacity=".18"/>
+  </pattern>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft">
+    <feGaussianBlur stdDeviation="18"/>
+  </filter>
+</defs>
+
+<rect width="1400" height="520" rx="32" fill="url(#bg)"/>
+<rect width="1400" height="520" rx="32" fill="url(#grid)"/>
+
+<!-- ambient glows -->
+<circle cx="1080" cy="105" r="95" fill="#22D3EE" opacity=".06" filter="url(#soft)"/>
+<circle cx="1240" cy="380" r="120" fill="#8B5CF6" opacity=".07" filter="url(#soft)"/>
+
+<!-- top micro header -->
+<text x="58" y="60" fill="#64748B" font-family="monospace" font-size="15">CONTROL_PLANE / HARI.PATEL / v3.0</text>
+<circle cx="1317" cy="54" r="7" fill="#34D399" filter="url(#glow)">
+  <animate attributeName="opacity" values="1;.25;1" dur="1.1s" repeatCount="indefinite"/>
+</circle>
+<text x="1338" y="60" fill="#A7F3D0" font-family="monospace" font-size="15">ONLINE</text>
+
+<!-- left terminal -->
+<rect x="55" y="92" width="515" height="340" rx="22" fill="#050B15" stroke="#173A5D" stroke-width="2"/>
+<circle cx="85" cy="120" r="6" fill="#FB7185"/>
+<circle cx="106" cy="120" r="6" fill="#FBBF24"/>
+<circle cx="127" cy="120" r="6" fill="#34D399"/>
+<text x="157" y="125" fill="#64748B" font-family="monospace" font-size="14">devops-control-plane</text>
+<line x1="55" y1="150" x2="570" y2="150" stroke="#17324D"/>
+
+<g font-family="monospace" font-size="18">
+  <text x="82" y="188" fill="#64748B">$</text>
+  <text x="105" y="188" fill="#22D3EE">whoami</text>
+  <text x="105" y="216" fill="#E2E8F0">hari-patel</text>
+
+  <text x="82" y="251" fill="#64748B">$</text>
+  <text x="105" y="251" fill="#60A5FA">systemctl</text>
+  <text x="212" y="251" fill="#E2E8F0">status delivery.service</text>
+
+  <text x="105" y="280" fill="#34D399">● active (running)</text>
+
+  <text x="82" y="315" fill="#64748B">$</text>
+  <text x="105" y="315" fill="#A78BFA">terraform</text>
+  <text x="212" y="315" fill="#E2E8F0">plan</text>
+
+  <text x="105" y="344" fill="#34D399">✓ infrastructure consistent</text>
+
+  <text x="82" y="379" fill="#64748B">$</text>
+  <text x="105" y="379" fill="#22D3EE">docker</text>
+  <text x="179" y="379" fill="#E2E8F0">ps</text>
+
+  <text x="105" y="408" fill="#34D399">✓ application healthy</text>
+</g>
+
+<!-- center / main identity -->
+<text x="625" y="142" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="70" font-weight="800">HARI PATEL</text>
+<text x="628" y="188" fill="#22D3EE" font-family="Arial, sans-serif" font-size="31" font-weight="800">DEVOPS ENGINEER</text>
+<text x="630" y="225" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="20">Cloud Infrastructure • Automation • Reliability</text>
+
+<!-- control plane pipeline -->
+<g font-family="Arial, sans-serif" font-weight="700">
+  <g transform="translate(630 265)">
+    <rect width="130" height="62" rx="16" fill="#0C1D31" stroke="#22D3EE"/>
+    <text x="65" y="38" fill="#E2E8F0" text-anchor="middle" font-size="16">GITHUB</text>
+  </g>
+  <g transform="translate(790 265)">
+    <rect width="130" height="62" rx="16" fill="#0C1D31" stroke="#60A5FA"/>
+    <text x="65" y="38" fill="#E2E8F0" text-anchor="middle" font-size="16">CI / CD</text>
+  </g>
+  <g transform="translate(950 265)">
+    <rect width="130" height="62" rx="16" fill="#0C1D31" stroke="#8B5CF6"/>
+    <text x="65" y="38" fill="#E2E8F0" text-anchor="middle" font-size="16">DOCKER</text>
+  </g>
+  <g transform="translate(1110 265)">
+    <rect width="130" height="62" rx="16" fill="#0C1D31" stroke="#34D399"/>
+    <text x="65" y="38" fill="#E2E8F0" text-anchor="middle" font-size="16">AWS</text>
+  </g>
+  <path d="M760 296H790M920 296H950M1080 296H1110" stroke="url(#cyan)" stroke-width="3"/>
+  <circle cx="630" cy="296" r="5" fill="#22D3EE" filter="url(#glow)">
+    <animate attributeName="cx" values="630;1240;630" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- second layer -->
+<g font-family="monospace" font-size="15">
+  <rect x="630" y="350" width="610" height="44" rx="22" fill="#081B2B" stroke="#244B6B"/>
+  <text x="655" y="378" fill="#94A3B8">FLOW:</text>
+  <text x="720" y="378" fill="#22D3EE">BUILD</text>
+  <text x="781" y="378" fill="#64748B">→</text>
+  <text x="800" y="378" fill="#60A5FA">DEPLOY</text>
+  <text x="874" y="378" fill="#64748B">→</text>
+  <text x="893" y="378" fill="#A78BFA">OBSERVE</text>
+  <text x="985" y="378" fill="#64748B">→</text>
+  <text x="1005" y="378" fill="#34D399">SCALE</text>
+</g>
+
+<!-- status cards -->
+<g font-family="monospace" font-size="14">
+  <rect x="630" y="415" width="180" height="48" rx="12" fill="#081D1A" stroke="#165A4A"/>
+  <circle cx="651" cy="439" r="5" fill="#34D399"/>
+  <text x="665" y="444" fill="#A7F3D0">CI/CD ONLINE</text>
+
+  <rect x="825" y="415" width="180" height="48" rx="12" fill="#0B1A2C" stroke="#1C4B73"/>
+  <circle cx="846" cy="439" r="5" fill="#60A5FA"/>
+  <text x="860" y="444" fill="#BFDBFE">CLOUD READY</text>
+
+  <rect x="1020" y="415" width="220" height="48" rx="12" fill="#17102A" stroke="#4C2A74"/>
+  <circle cx="1041" cy="439" r="5" fill="#A78BFA"/>
+  <text x="1055" y="444" fill="#DDD6FE">AUTOMATION ACTIVE</text>
+</g>
+
+<!-- animated data traces -->
+<path d="M600 490 H1320" stroke="#153B57"/>
+<path d="M600 490 H735" stroke="#22D3EE" stroke-width="3">
+  <animate attributeName="d" values="M600 490 H600;M600 490 H980;M600 490 H1320;M600 490 H600" dur="3.6s" repeatCount="indefinite"/>
+</path>
+
+<text x="58" y="482" fill="#334155" font-family="monospace" font-size="13">production-minded engineering</text>
+<text x="1340" y="482" fill="#475569" font-family="monospace" font-size="13" text-anchor="end">secure • repeatable • observable</text>
+</svg>

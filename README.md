@@ -1,69 +1,128 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-command-center.svg" width="100%" alt="Hari Patel DevOps Command Center"/>
+<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/main/assets/devops-control-plane.svg" width="100%" alt="Hari Patel DevOps Control Plane"/>
 
-<br/>
+<br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2600&pause=850&color=22D3EE&center=true&vCenter=true&width=900&height=55&lines=%3E_+DevOps+Engineer+%7C+Cloud+%26+Automation;%3E_+AWS+%7C+Docker+%7C+Kubernetes+%7C+Terraform;%3E_+CI%2FCD+%7C+Linux+%7C+Nginx+%7C+Infrastructure+as+Code;%3E_+AI%2FML+%26+Computer+Vision+Background;%3E_+Ship+reliably.+Operate+smart.+Automate+everything." alt="Typing animation"/>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=VISITORS&color=22D3EE&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/hkPateL26?label=FOLLOWERS&style=for-the-badge&color=111827&labelColor=0B1220" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/hkPateL26?label=STARS&style=for-the-badge&color=111827&labelColor=0B1220" alt="Stars"/>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=19&duration=2400&pause=700&color=67E8F9&center=true&vCenter=true&width=900&height=50&lines=DEVOPS+ENGINEER+%7C+CLOUD+%26+AUTOMATION;AWS+%E2%80%A2+DOCKER+%E2%80%A2+KUBERNETES+%E2%80%A2+TERRAFORM;CI%2FCD+%E2%80%A2+LINUX+%E2%80%A2+NGINX+%E2%80%A2+OBSERVABILITY;BUILD+%E2%86%92+DEPLOY+%E2%86%92+OBSERVE+%E2%86%92+SCALE" alt="Animated role"/></a>
 
 </div>
 
 ---
 
-<table>
-<tr>
-<td width="58%" valign="top">
-
-## `> whoami`
-
-**Hari Patel**  
-`DevOps Engineer`
-
-I build the layer between **code and production** — cloud infrastructure, automated delivery, containers, Linux systems and reliable deployment workflows.
-
-```yaml
-focus:
-  - Cloud Infrastructure
-  - CI/CD Automation
-  - Containerization
-  - Infrastructure as Code
-  - Linux & Production Operations
-
-current_stack:
-  cloud: AWS
-  containers: Docker
-  orchestration: Kubernetes
-  iac: Terraform
-  ci_cd: GitHub Actions
-  web: Nginx
-```
-
-</td>
-<td width="42%" valign="top">
-
-## `> status`
+## `SYSTEM / IDENTITY`
 
 ```text
-┌────────────────────────────┐
-│  SYSTEM STATUS             │
-├────────────────────────────┤
-│  ● CLOUD        ONLINE     │
-│  ● CI/CD        ONLINE     │
-│  ● DOCKER       READY      │
-│  ● TERRAFORM    READY      │
-│  ● KUBERNETES   LEARNING   │
-│  ● MONITORING   NEXT       │
-└────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────┐
+│ HARI.PATEL :: DEVOPS CONTROL PLANE                                  │
+├──────────────────────────────────────────────────────────────────────┤
+│ ROLE       : DevOps Engineer                                        │
+│ DOMAIN     : Cloud Infrastructure • Automation • Reliability       │
+│ MODE       : BUILD / DEPLOY / OBSERVE / SCALE                       │
+│ PLATFORM   : AWS                                                     │
+│ RUNTIME    : Docker • Kubernetes                                    │
+│ IaC        : Terraform                                              │
+│ DELIVERY   : GitHub Actions / CI/CD                                 │
+│ OS / EDGE  : Linux • Nginx • HTTPS                                  │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
-**Mission:**  
-`Build → Deploy → Observe → Secure → Scale`
+> I build the engineering layer between **application code and reliable production systems**.
+
+---
+
+## `01 / LIVE TOPOLOGY`
+
+```text
+                            ┌───────────────┐
+                            │    GITHUB     │
+                            │  source code  │
+                            └───────┬───────┘
+                                    │
+                              ┌─────▼─────┐
+                              │  CI / CD  │
+                              │  ACTIONS  │
+                              └─────┬─────┘
+                                    │
+                              ┌─────▼─────┐
+                              │   DOCKER  │
+                              │   IMAGE   │
+                              └─────┬─────┘
+                                    │
+                     ┌──────────────▼──────────────┐
+                     │            AWS              │
+                     │   EC2 • VPC • IAM • SG      │
+                     └──────────────┬──────────────┘
+                                    │
+                              ┌─────▼─────┐
+                              │   NGINX   │
+                              │ HTTPS/443 │
+                              └─────┬─────┘
+                                    │
+                         ┌──────────▼──────────┐
+                         │   APP / API         │
+                         │ Node.js / Python    │
+                         └──────────┬──────────┘
+                                    │
+                         ┌──────────▼──────────┐
+                         │ DATABASE / CACHE    │
+                         │ PostgreSQL / Redis  │
+                         └─────────────────────┘
+```
+
+---
+
+## `02 / ENGINEERING MODULES`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ CLOUD
+
+**AWS**
+- EC2
+- VPC
+- IAM
+- Security Groups
+- Production deployments
+
+</td>
+<td width="50%" valign="top">
+
+### 🐳 CONTAINERS
+
+**Docker**
+- Images
+- Containers
+- Compose
+- Networking
+- Deployment consistency
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ INFRASTRUCTURE
+
+**Terraform**
+- Infrastructure as Code
+- Plan / Apply
+- Version-controlled infrastructure
+- Repeatable environments
+
+</td>
+<td width="50%" valign="top">
+
+### 🔄 DELIVERY
+
+**GitHub Actions**
+- Build
+- Test
+- Deploy
+- Automation
+- Release workflows
 
 </td>
 </tr>
@@ -71,200 +130,92 @@ current_stack:
 
 ---
 
-## `01` — ⚡ Command Center
-
-<div align="center">
-
-| ☁️ CLOUD | 🐳 CONTAINERS | 🔄 DELIVERY | 🏗️ IaC | ☸️ ORCHESTRATION |
-|:---:|:---:|:---:|:---:|:---:|
-| **AWS** | **Docker** | **GitHub Actions** | **Terraform** | **Kubernetes** |
-| EC2 • IAM • VPC | Image • Compose | Build • Test • Deploy | Plan • Apply • State | Pods • Services • Deployments |
-
-</div>
-
----
-
-## `02` — 🛰️ Delivery Pipeline
-
-<div align="center">
+## `03 / OPERATIONAL MINDSET`
 
 ```text
-┌──────────┐     ┌──────────┐     ┌──────────────┐     ┌─────────┐
-│  CODE    │ ──▶ │  GITHUB  │ ──▶ │  CI / CD     │ ──▶ │ DOCKER  │
-└──────────┘     └──────────┘     └──────────────┘     └────┬────┘
-                                                            │
-                                                            ▼
-┌────────────┐   ◀──  ┌──────────┐   ◀──  ┌───────────┐  ┌─────────┐
-│ LIVE USERS │      │  HTTPS   │      │   NGINX   │◀─│   AWS   │
-└────────────┘      └──────────┘      └───────────┘  └─────────┘
+┌──────────────┐
+│    SECURE    │── SSH keys • firewall • HTTPS • least privilege
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   AUTOMATE   │── CI/CD • Docker • Terraform
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   OBSERVE    │── logs • metrics • health checks
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   RECOVER    │── restart • rollback • backup
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│     SCALE    │── cloud • containers • Kubernetes
+└──────────────┘
 ```
-
-</div>
-
-> **The goal is not just “it works”.**  
-> The goal is **repeatable delivery, predictable operations and easier recovery**.
 
 ---
 
-## `03` — 🧰 Technology Matrix
+## `04 / TOOLCHAIN`
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,terraform,linux,nginx,githubactions,git,prometheus,grafana&theme=dark&perline=10"/>
 
-<br/><br/>
+<br><br>
 
 <img src="https://skillicons.dev/icons?i=nodejs,nestjs,python,fastapi,postgres,mysql,redis,bash,postman&theme=dark&perline=10"/>
-
-<br/><br/>
-
-<img src="https://skillicons.dev/icons?i=python,opencv,django,react,js,ts,html,css,tailwind,c,cpp&theme=dark&perline=11"/>
 
 </div>
 
 ---
 
-## `04` — 🏗️ Engineering Layers
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-### ☁️ CLOUD
-
-AWS  
-EC2  
-VPC  
-IAM  
-Security
-
-</td>
-<td width="25%" align="center">
-
-### 🐳 RUNTIME
-
-Docker  
-Compose  
-Nginx  
-PM2  
-systemd
-
-</td>
-<td width="25%" align="center">
-
-### 🔄 AUTOMATION
-
-GitHub Actions  
-CI/CD  
-Deployments  
-Secrets  
-Rollback
-
-</td>
-<td width="25%" align="center">
-
-### 🏗️ INFRA
-
-Terraform  
-IaC  
-Kubernetes  
-Monitoring  
-Reliability
-
-</td>
-</tr>
-</table>
-
----
-
-## `05` — 🔐 Production Mindset
-
-```text
-SECURE
-  ↓
-Least privilege • SSH keys • Firewall • HTTPS
-
-AUTOMATE
-  ↓
-CI/CD • Docker • Terraform • Repeatable deployments
-
-OBSERVE
-  ↓
-Logs • Metrics • Health checks • Alerts
-
-RECOVER
-  ↓
-Restart policies • Rollback • Backups • Runbooks
-
-SCALE
-  ↓
-Containers • Load balancing • Kubernetes • Cloud
-```
-
----
+## `05 / APPLICATION ENGINEERING BACKGROUND`
 
 <details>
-<summary><b>🤖 AI/ML & Full Stack Background</b></summary>
+<summary><b>AI / ML + Backend + Full Stack</b></summary>
 
-<br/>
+<br>
 
-My DevOps journey is supported by an earlier engineering background in:
+My current direction is **DevOps & Cloud Engineering**, supported by an earlier application-development background:
 
-- AI / ML
-- Computer Vision
-- Python
-- FastAPI / Django
-- Backend Development
-- React / TypeScript
-- PostgreSQL / MySQL
+- 🤖 AI / ML
+- 👁️ Computer Vision
+- 🐍 Python
+- ⚡ FastAPI / Django
+- 🧩 Node.js / NestJS
+- ⚛️ React / TypeScript
+- 🗄️ PostgreSQL / MySQL
 
-> **DevOps is my current direction; AI/ML and Full Stack are part of the engineering foundation behind it.**
+**Why it matters:** understanding the application helps me reason about the infrastructure that runs it.
 
 </details>
 
 ---
 
-## `06` — 🚀 What I Build
+## `06 / BUILD LOG`
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ☁️ Cloud & Infrastructure
-
-- Production-oriented AWS deployments
-- Linux server configuration
-- Nginx reverse proxy
-- HTTPS / SSL
-- Security groups & firewall rules
-- Terraform infrastructure
-
-</td>
-<td width="50%" valign="top">
-
-### 🔄 Automation & Delivery
-
-- GitHub Actions workflows
-- Dockerized applications
-- Docker Compose environments
-- Automated deployment pipelines
-- PM2 / systemd process management
-- Production troubleshooting
-
-</td>
-</tr>
-</table>
+| Area | Focus |
+|---|---|
+| `CLOUD` | AWS infrastructure and production workloads |
+| `CONTAINERS` | Docker / Compose deployments |
+| `CI/CD` | Automated build-test-deploy pipelines |
+| `IaC` | Terraform-managed infrastructure |
+| `LINUX` | SSH, services, permissions, logs, firewall |
+| `WEB EDGE` | Nginx, reverse proxy, HTTPS |
+| `OBSERVABILITY` | Prometheus / Grafana fundamentals |
+| `ORCHESTRATION` | Kubernetes fundamentals |
 
 ---
 
-## `07` — 📊 GitHub Telemetry
+## `07 / GITHUB TELEMETRY`
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=hkPateL26&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github&include_all_commits=true" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=hkPateL26&theme=github-dark-blue&hide_border=true" width="48%"/>
 
-<br/><br/>
+<br><br>
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hkPateL26&layout=compact&hide_border=true&theme=github_dark&langs_count=8" width="55%"/>
 
@@ -272,38 +223,42 @@ My DevOps journey is supported by an earlier engineering background in:
 
 ---
 
-## `08` — 🐍 Contribution Stream
+## `08 / CONTRIBUTION STREAM`
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg?v=4" alt="Contribution snake" width="100%"/>
+<img src="https://raw.githubusercontent.com/hkPateL26/hkPateL26/output/github-contribution-grid-snake-dark.svg?v=5" width="100%" alt="Contribution animation"/>
 
 </div>
 
 ---
 
-## `09` — 🎯 2026 Mission Board
+## `09 / MISSION BOARD :: 2026`
 
-| Status | Objective |
-|:---:|---|
-| ✅ | Linux & production server management |
-| ✅ | Docker & containerization |
-| ✅ | GitHub Actions / CI/CD |
-| ✅ | AWS deployment |
-| ✅ | Nginx + HTTPS |
-| ✅ | Terraform / Infrastructure as Code |
-| 🔄 | Kubernetes |
-| 🔄 | Prometheus + Grafana |
-| 🔄 | Advanced AWS architecture |
-| 🔄 | Security & reliability engineering |
+```text
+[✓] Linux & production server management
+[✓] Docker & containerization
+[✓] GitHub Actions / CI-CD
+[✓] AWS deployment
+[✓] Nginx + HTTPS
+[✓] Terraform / Infrastructure as Code
+
+[→] Kubernetes
+[→] Prometheus + Grafana
+[→] Advanced AWS architecture
+[→] Security & reliability engineering
+[→] Production-grade automation
+```
 
 ---
 
 <div align="center">
 
-### `BUILD` → `DEPLOY` → `AUTOMATE` → `OBSERVE` → `SCALE`
+```text
+BUILD  →  DEPLOY  →  OBSERVE  →  SECURE  →  SCALE
+```
 
-<br/>
+### ⚡ Reliability is a feature.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=22D3EE&height=120&section=footer"/>
 
