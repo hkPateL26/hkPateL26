@@ -1,0 +1,62 @@
+<svg width="1200" height="210" viewBox="0 0 1200 210" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#08111F"/><stop offset="1" stop-color="#0B1728"/>
+  </linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#22D3EE"/><stop offset=".5" stop-color="#60A5FA"/><stop offset="1" stop-color="#A78BFA"/>
+  </linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="210" rx="26" fill="url(#bg)" stroke="#1C3E5B"/>
+<text x="42" y="38" fill="#94A3B8" font-size="13" font-family="monospace">DEVOPS DELIVERY PATH / APPLICATION → PRODUCTION</text>
+<path d="M100 112 H1098" stroke="#19384F" stroke-width="4"/>
+<path d="M100 112 H1098" stroke="url(#line)" stroke-width="3" stroke-dasharray="8 12" opacity=".85"/>
+<circle cx="100" cy="112" r="8" fill="#22D3EE" filter="url(#g)">
+  <animate attributeName="cx" values="100;1098;100" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<g font-family="Arial,sans-serif" text-anchor="middle">
+  <g transform="translate(70 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#22D3EE"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">CODE</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Git</text>
+  </g>
+  <g transform="translate(215 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#60A5FA"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">CI / CD</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Actions</text>
+  </g>
+  <g transform="translate(360 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#A78BFA"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">BUILD</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Test</text>
+  </g>
+  <g transform="translate(505 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#22D3EE"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">CONTAINER</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Docker</text>
+  </g>
+  <g transform="translate(650 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#F59E0B"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">CLOUD</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">AWS</text>
+  </g>
+  <g transform="translate(795 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#34D399"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">SECURE</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Nginx / TLS</text>
+  </g>
+  <g transform="translate(940 74)">
+    <rect width="120" height="76" rx="18" fill="#0B2031" stroke="#A78BFA"/>
+    <text x="60" y="32" fill="#E2E8F0" font-size="15" font-weight="700">OBSERVE</text>
+    <text x="60" y="53" fill="#64748B" font-size="12">Metrics</text>
+  </g>
+  <g transform="translate(1085 74)">
+    <rect width="82" height="76" rx="18" fill="#0B2031" stroke="#34D399"/>
+    <text x="41" y="32" fill="#E2E8F0" font-size="15" font-weight="700">LIVE</text>
+    <text x="41" y="53" fill="#34D399" font-size="12">READY</text>
+  </g>
+</g>
+
+</svg>
