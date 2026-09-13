@@ -16,12 +16,32 @@
 <br/>
 
 <a href="https://github.com/hkPateL26">
+<<<<<<< HEAD
   <img src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <a href="https://twitter.com/hkPateL26">
   <img src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
 </a>
 <img src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge" alt="Profile Views"/>
+=======
+  <img
+    src="https://img.shields.io/badge/GitHub-hkPateL26-0B1220?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub"
+  />
+</a>
+
+<a href="https://twitter.com/hkPateL26">
+  <img
+    src="https://img.shields.io/badge/X-@hkPateL26-0B1220?style=for-the-badge&logo=x&logoColor=white"
+    alt="X"
+  />
+</a>
+
+<img
+  src="https://komarev.com/ghpvc/?username=hkPateL26&label=PROFILE%20VIEWS&color=22D3EE&style=for-the-badge"
+  alt="Profile Views"
+/>
+>>>>>>> 6dec57b16c440d11b56a36d9fe1a3a692ad39198
 
 </div>
 
@@ -82,6 +102,7 @@ Nginx
 Application
   ↓
 Database
+<<<<<<< HEAD
 ```
 
 ### Automated Delivery
@@ -257,3 +278,5 @@ Reliability
 ### ⚡ Build the system. Automate the path. Operate it well.
 
 </div>
+=======
+>>>>>>> 6dec57b16c440d11b56a36d9fe1a3a692ad39198
